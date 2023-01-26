@@ -1,0 +1,14 @@
+.container{
+    width: 100vw;
+    background-color: rgba(0, 71, 81, 1);
+    height: 10vh;
+    margin: 0 0 0 0;
+    padding: 0;
+    position: absolute;
+    top: 105vh;
+}
+
+.container h1 {
+    margin: 0;
+    
+}

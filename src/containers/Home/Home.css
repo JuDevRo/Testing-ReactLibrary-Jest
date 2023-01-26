@@ -1,0 +1,59 @@
+.home-container{
+    display: flex;
+    height: 100vh;
+}
+
+.first{
+    display: grid;
+    width: 50vw;
+    grid-template-columns: 1fr;
+    grid-template-rows: 75vh 30vh;
+    margin: 0;
+}
+
+.one{
+    background-color: white;
+    color: rgba(0, 71, 81, 1);
+    margin: 0;
+}
+
+.one:hover{
+    background-color: rgba(0, 71, 81, 1);
+    color: white;
+    margin: 0;
+}
+
+.date{
+    background-color: rgb(191, 180, 239);
+    margin: 0;
+}
+
+.second{
+    display: grid;
+    width: 50vw;
+    color: rgba(0, 71, 81, 1);
+    grid-template-columns: 1fr;
+    grid-template-rows: 40vh 65vh;
+    background-color: rgba(255, 255, 255, 0.01)
+}
+
+.two{
+    background-color: rgb(235, 87, 47);
+    margin: 0;
+}
+
+.two:hover {
+    background-color: rgb(191, 180, 239);
+    color: white;
+}
+
+.three{
+    background-color: rgb(211, 247, 129);
+    margin: 0;
+}
+
+.three:hover{
+    background-color: rgb(124, 120, 139);
+    color: white;
+    margin: 0;
+}
