@@ -1,0 +1,86 @@
+.about-container {
+    height: 120vh;
+    overflow-x: hidden;
+}
+
+.about-close{
+    display: inline-block;
+    margin: 0;
+    font-size: 80px;
+    top: 0.1vh;
+    left: 94vw;
+    color: white;
+    position: absolute;
+}
+
+.about-link {
+    text-decoration: none;
+}
+
+.about-header {
+    width: 100vw;
+    height: 15vh;
+    background-color: red;
+    display: grid;
+    grid-template-areas: "Me Projects";
+}
+
+.about-header h2{
+    display: inline-block;
+    margin: 0;
+    font-size: 60px;
+    padding-left: 2vw;
+    padding-top: 1.8vh;
+}
+
+.about-title {
+    background-color: blue;
+}
+
+.about-information-container {
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 3vh;
+}
+
+.about-info{
+    display: grid;
+    grid-template-areas: "about name";
+    border-bottom: 1px solid black;
+}
+
+.info-name{
+    grid-area: about;
+    width: 39vw;
+    font-size: 60px;
+}
+.info-name h1 {
+    margin: 0;
+}
+
+.info-resume{
+    grid-area: name;
+    font-size: 30px;
+    width: 100%;
+}
+
+.info-resume h2{
+    margin-top: 4vh;
+}
+
+.info-desc{
+    display: grid;
+    grid-template-areas: "background what";
+}
+
+.info-desc p{
+    color: gray;
+}
+
+.desc-back{
+    grid-area: background;
+}
+
+.desc-what{
+    grid-area: what;
+}

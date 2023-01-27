@@ -1,0 +1,101 @@
+.main-container {
+    height: 120vh;
+    overflow-x: hidden;
+}
+
+.main-close{
+    display: inline-block;
+    margin: 0;
+    font-size: 80px;
+    top: 0.1vh;
+    left: 94vw;
+    color: white;
+    position: absolute;
+}
+
+.main-link {
+    text-decoration: none;
+}
+
+.main-header {
+    width: 100vw;
+    height: 15vh;
+    background-color: red;
+    display: grid;
+    grid-template-areas: "Me Projects";
+}
+
+.main-header h2{
+    display: inline-block;
+    margin: 0;
+    font-size: 60px;
+    padding-left: 2vw;
+    padding-top: 1.8vh;
+}
+
+.main-title {
+    background-color: blue;
+}
+
+.main-information-container {
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.main-information{
+    display: grid;
+    grid-template-areas: "name resume";
+}
+
+.information-name {
+    display: name;
+}
+
+.information-name p {
+    color: gray;
+}
+
+.information-name h1 {
+    font-size: 120px;
+    border-bottom: 1px solid black;
+    display: inline-block;
+    width: 40vw;
+}
+
+.information-resume{
+    display: resume;
+}
+
+.information-resume h2{
+    font-size: 40px;
+}
+
+.jr{
+    border-bottom: 1px solid black;
+    padding-bottom: 8.5vh;
+}
+
+.main-description{
+    display: grid;
+    grid-template-areas: "experience tech";
+}
+
+.description-experience{
+    grid-area: experience;
+    width: 50vw;
+    font-size: 20px;
+}
+
+.description-experience h2{
+    margin: 0;
+}
+
+.description-technologies{
+    grid-area: tech;
+    margin: 0;
+    font-size: 30px;
+}   
+
+.description-technologies h2 {
+    margin: 0;
+}

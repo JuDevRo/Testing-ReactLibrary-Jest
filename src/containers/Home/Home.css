@@ -1,13 +1,15 @@
 .home-container{
     display: flex;
-    height: 100vh;
+    height: 110vh;
+    margin-bottom: 0vh;
+    overflow-x: hidden;
 }
 
 .first{
     display: grid;
     width: 50vw;
-    grid-template-columns: 1fr;
-    grid-template-rows: 75vh 30vh;
+    grid-template-columns: 50vw;
+    grid-template-rows: 80vh 30vh;
     margin: 0;
 }
 
@@ -16,6 +18,8 @@
     color: rgba(0, 71, 81, 1);
     margin: 0;
     text-decoration: none;
+    font-size: 32px;
+    padding-left: 2vw;
 }
 
 .one:hover{
@@ -27,14 +31,18 @@
 .date{
     background-color: rgb(191, 180, 239);
     margin: 0;
+    font-size: 26px;
+    padding-left: 2vw;
+    color: rgba(0, 71, 81, 1);
 }
 
 .second{
     display: grid;
+    margin: 0;
     width: 50vw;
     color: rgba(0, 71, 81, 1);
-    grid-template-columns: 1fr;
-    grid-template-rows: 40vh 65vh;
+    grid-template-columns:50vw;
+    grid-template-rows: 40vh 70vh;
     background-color: rgba(255, 255, 255, 0.01)
 }
 
@@ -43,6 +51,8 @@
     margin: 0;
     text-decoration: none;
     color: rgba(0, 71, 81, 1);
+    font-size: 32px;
+    padding-left: 2vw;
 }
 
 .two:hover {
@@ -55,6 +65,8 @@
     margin: 0;
     text-decoration: none;
     color: rgba(0, 71, 81, 1);
+    font-size: 32px;
+    padding-left: 2vw;
 }
 
 .three:hover{

@@ -10,23 +10,23 @@ const Home = () => {
                
                 <Link className='one' to="/main">
                     <div> 
-                        <h1>Example One</h1>
+                        <h1>Nico</h1>
                     </div>  
                 </Link>
                 <div className='date'>
-                    <h1>Example Date</h1>
+                    <h1>Jr FullStack Web Developer</h1>
                 </div>
             </div>
             <div className='second'>
-                <Link className='two'>
+                <Link className='two' to="Projects">
                     <div>
-                        <h1>Example Two</h1>
+                        <h1>Projects</h1>
                     </div>  
                 </Link>
                 
-                <Link className='three'>
+                <Link className='three' to="About">
                     <div>
-                        <h1>Example Three</h1>
+                        <h1>About</h1>
                     </div>
                 </Link>
             </div>
