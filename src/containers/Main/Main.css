@@ -82,8 +82,9 @@
 
 .description-experience{
     grid-area: experience;
-    width: 50vw;
+    width: 45vw;
     margin-right: 5vw;
+    padding-right: 5vw;
     font-size: 20px;
 }
 
