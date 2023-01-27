@@ -28,7 +28,7 @@ const Main = () => {
                         <h2>I have made a 9-weeks full-time intensive coding bootcamp learning. <br/> Designed, implemented and shipped to produce a clone of AirBnB and a Rails prototype. <br/>+ 1 months implementing what I've learned</h2>
                     </div>
                     <div className='description-technologies'>
-                        <h2>HTML, CSS, Bootstrap, React, JavaScript, ES6, SQL, git,<br/>GitHub, Heroku and<br/>Ruby on Rails.</h2>
+                        <h2>HTML, CSS, Bootstrap,<br/> React, JavaScript, ES6, SQL, git, GitHub, Heroku and<br/>Ruby on Rails.</h2>
                     </div>
                 </div>
             </div>
