@@ -29,7 +29,7 @@ const Projects = () => {
                     </div>
                     <div className='info-link'>
                         <p>Click to open</p>
-                        <h2>www.makeit-easy.me</h2>
+                        <a target="blank" href="https://glacial-tor-83816.herokuapp.com/"><h2>concept/o</h2></a>
                         <h2>>share! <p>available on github</p></h2>
                     </div>
                 </div>
